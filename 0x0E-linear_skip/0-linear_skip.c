@@ -20,7 +20,6 @@ void print_found(size_t index1, size_t index2, skiplist_t *last)
 	printf("Value found between indexes [%lu] and [%lu]\n", index1, index2);
 }
 
-
 /**
  * print_check - print message when check values
  * @index: index where is comparing
@@ -32,7 +31,6 @@ void print_check(size_t index, int value)
 {
 	printf("Value checked at index [%lu] = [%i]\n", index, value);
 }
-
 
 /**
  * find_one_by_one - check next by next
@@ -56,7 +54,6 @@ skiplist_t *find_one_by_one(skiplist_t *head, int value)
 
 	return (NULL);
 }
-
 
 /**
  * linear_skip - found a value in skip list
